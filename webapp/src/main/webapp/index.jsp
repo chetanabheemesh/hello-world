@@ -15,7 +15,7 @@
 
 			<br><br>
 			<center>
-			      <font color="grey" size="7">  Hello World   </font>
+			      <font color="grey" size="7">  Hello Lokesh Cloud   </font>
 			<font color="gray" size="5"> 
 			</center>
 			  The date now is: <%= new java.util.Date() %>
