@@ -16,12 +16,10 @@
 			<br><br>
 			<center>
 			      <font color="blue" size="7">  Future Group Enterprises   </font>
-			</center>
 			<font color="gray" size="5"> 
 			  The date now is: <%= new java.util.Date() %>
+			</center>
 			</font>
 		</table>
-		<input type="submit" value="Login" /></form>
-
 </body>
 </html>
