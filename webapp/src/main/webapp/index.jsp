@@ -21,6 +21,13 @@
 				<td>Vinmayi</td>
 				<td><input type="password" name="password" /></td>
 			</tr>
+			<br><br>
+			<center>
+			      <font color="gray" size="7">  Hello Deepika and Vinmayi Here  </font>
+			</center>
+			<font color="gray" size="5"> 
+			  The date now is: <%= new java.util.Date() %>
+			</font>
 		</table>
 		<input type="submit" value="Login" /></form>
 
