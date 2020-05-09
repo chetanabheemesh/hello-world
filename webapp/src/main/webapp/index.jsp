@@ -4,21 +4,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title> Deepu-Vinuu Enterprises </title>
+<title> cloud Test </title>
 </head>
 
 <body>
 
-<h3> Future Group Enterprises </h3>	
+<h3> Welcome Page </h3>	
 <form action="User_Login" method="post">
 		<table style="with: 50%">
 
 			<br><br>
 			<center>
-			      <font color="blue" size="7">  Future Group Enterprises   </font>
+			      <font color="grey" size="7">  Hello World   </font>
 			<font color="gray" size="5"> 
-			  The date now is: <%= new java.util.Date() %>
 			</center>
+			  The date now is: <%= new java.util.Date() %>
 			</font>
 		</table>
 </body>
