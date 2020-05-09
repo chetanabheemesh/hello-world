@@ -13,17 +13,9 @@
 <form action="User_Login" method="post">
 		<table style="with: 50%">
 
-			<tr>
-				<td>Deepika</td>
-				<td><input type="text" name="username" /></td>
-			</tr>
-				<tr>
-				<td>Vinmayi</td>
-				<td><input type="password" name="password" /></td>
-			</tr>
 			<br><br>
 			<center>
-			      <font color="gray" size="7">  Hello Deepika and Vinmayi Here  </font>
+			      <font color="blue" size="7">  Future Group Enterprises   </font>
 			</center>
 			<font color="gray" size="5"> 
 			  The date now is: <%= new java.util.Date() %>
