@@ -15,7 +15,7 @@
 
 			<br><br>
 			<center>
-			      <font color="grey" size="7">rollout  Webapplication Deploying into AWS Cloud   </font>
+			      <font color="grey" size="7">Mr Bheem means confidence K8s POD Deploying into AWS Cloud   </font>
 			<font color="gray" size="5"> 
 			</center>
 			  The date now is: <%= new java.util.Date() %>
