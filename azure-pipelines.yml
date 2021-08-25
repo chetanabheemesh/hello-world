@@ -13,9 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script SriRama'
   
-- task: Maven@3
-  inputs:
-  mavenPomFile: https://github.com/chetanabheemesh/hello-world/blob/master/pom.xml
+variables:
+  - name: versionName
+    value: ''
   
 - script:
       echo Add other tasks to build, test, and deploy your project 25 August 2021.
