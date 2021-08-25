@@ -12,8 +12,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script SriRama'
+  
 - task: Maven@3
-  displayName: "CompileBheem"
+  inputs:
   mavenPomFile: 'pom.xml'
   
 - script:
