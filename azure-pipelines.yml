@@ -13,7 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script SriRama'
 - task: Maven@3
-  displayName: "Compile"
+  displayName: "CompileBheem"
+  inputs:
+  mavenPomFile: 'pom.xml'
   
 - script: |
     echo Add other tasks to build, test, and deploy your project 25 August 2021.
