@@ -12,7 +12,6 @@ steps:
   displayName: 'Run a one-line script SriRama'
   
 - task: Maven@3
-    displayName: 'Maven Package Yahoo'
     inputs:
     mavenPomFile: 'pom.xml'
     
