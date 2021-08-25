@@ -6,6 +6,12 @@
 trigger:
 - master
 
+steps:
+  - task: Maven@3
+    displayName: 'Maven Package Yahoo'
+    inputs:
+    mavenPomFile: 'pom.xml'
+
 pool:
   vmImage: ubuntu-latest
 
