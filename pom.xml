@@ -15,6 +15,20 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
+         
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0lcvgmb0bbtw-artifactory-primary-0-releases</name>
+        <url>https://kuri.jfrog.io/artifactory/kgf</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0lcvgmb0bbtw-artifactory-primary-0-snapshots</name>
+        <url>https://kuri.jfrog.io/artifactory/kgf</url>
+    </snapshotRepository>
+   </distributionManagement>
+         
 
   <modules>
     <module>server</module>
