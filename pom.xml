@@ -9,7 +9,7 @@
   <version>1.0</version>
           
   <name>Maven Project</name>
-  <description>Maleasia Sample Maven project with a working, deployable site.</description>
+  <description>Maleasia Wow Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
   <properties>
